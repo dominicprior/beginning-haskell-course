@@ -18,13 +18,8 @@ buildDictionary strings = foldr addWord M.empty strings
 anagrams :: Dict -> String -> [String]
 anagrams dict word = maybe [] id $ M.lookup (wordToKey word) dict
 
-{-
 main = do
   str <- readFile "words"
   let dict = buildDictionary $ lines str
   args <- getArgs
   mapM_ putStrLn $ anagrams dict $ head args
--}
-
-words = [
-  ]
