@@ -1,1 +1,1 @@
-This course is for Haskell beginners, and consists of exercises and a bit of theory.  It starts off at the GHCi prompt with simple stuff like `map (^2) [1..5]`, then introduces types and various Prelude functions, and ends with an exercise in finding anagrams.
+This beginner's course is a mixture of exercises and a bit of theory, starting at the GHCi prompt with simple stuff like `map (^2) [1..5]`, then introducing types and various Prelude functions, and ending with an exercise in finding anagrams.
