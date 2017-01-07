@@ -1,2 +1,1 @@
-# beginning-haskell-course
-Materials for a two hour Haskell course
+This course is for Haskell beginners, and consists of exercises and a bit of theory.  It starts off at the GHCi prompt with simple stuff like `map (^2) [1..5]`, and then introduces types and various Prelude functions, and ends with an exercise in finding anagrams.
